@@ -46,7 +46,6 @@ public class wordrequence {
         }
         System.out.println("这篇文章中英文字母频率为:");
         double sum=0;
-// System.out.println("////////////排序如下:");
         for(i=0;i<25;i++)
             for(int k=0;k<25-i;k++)
             {
@@ -62,7 +61,6 @@ public class wordrequence {
             }
         for(i=0;i<26;i++)
         {
-// System.out.println(Z[i]+"字母个数为:"+X[i]);
             sum=sum+X[i];
         }
 
